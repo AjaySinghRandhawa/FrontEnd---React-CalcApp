@@ -12,7 +12,7 @@ function LoginPage() {
     const { username, password } = event.target.elements;
 
     try {
-      const response = await fetch('http://localhost:3000/login', {
+      const response = await fetch('http://34.129.223.216:3000/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
